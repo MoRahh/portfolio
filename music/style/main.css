@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e0e8ff;
+  font-family: 'Poppins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+}
+
+.card-items {
+  background-color: #fff;
+  margin: 10em;
+  width: 30em;
+  border-radius: 2em;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+  margin-bottom: 1.5em;
+}
+
+.summary {
+  padding: 0 5.4em;
+  text-align: center;
+  line-height: 1.9em;
+  color: gray;
+  font-size: 10px;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.price {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+}
+
+.price p {
+  margin-top: 4em;
+  margin-bottom: 5em;
+  margin-right: 2em;
+  margin-left: 1.5em;
+}
+
+.music {
+  margin-top: 3em;
+  margin-left: 3em;
+}
+
+a {
+  margin-top: 5em;
+  margin-right: 3em;
+  color: #1f2f56;
+  font-weight: bold;
+}
+
+.proceed {
+  padding: 1.5em 5.5em;
+  background-color: #3829e0;
+  border: none;
+  border-radius: 1em;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.cancel {
+  background-color: white;
+  border: none;
+  color: gray;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.button {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
